@@ -8,7 +8,7 @@ public class DBcontext {
     public static Connection getConnection() {
         Connection c = null;
 
-        try {
+        try {//a
             String url = "jdbc:sqlserver://localhost:1433;databaseName=PRJ301_PE_SP_2022_B1";
             String username = "sa";
             String password = "123";
