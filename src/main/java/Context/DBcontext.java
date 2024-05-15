@@ -9,7 +9,7 @@ public class DBcontext {
         Connection c = null;
 
         try {
-            String url = "jdbc:sqlserver://localhost:1433;databaseName=PRJ30X_PE_SPRING2023";
+            String url = "jdbc:sqlserver://localhost:1433;databaseName=PRJ301_PE_SP_2022_B1";
             String username = "sa";
             String password = "123";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
