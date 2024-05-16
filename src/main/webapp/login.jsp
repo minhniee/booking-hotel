@@ -21,9 +21,9 @@
 
     <h1>sign-up</h1>
     <label for="username">User Name</label>
-    <input type="text" name="" id="username">
+    <input type="text" name="" id="username1">
     <label for="password">Password</label>
-    <input type="text" name="" id="password">
+    <input type="text" name="" id="password1">
     <input type="submit" value="Sign-up">
 
 
