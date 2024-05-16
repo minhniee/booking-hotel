@@ -3,12 +3,12 @@ package Context;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DBcontext {
+public class DBContext {
 
     public static Connection getConnection() {
         Connection c = null;
 
-        try {//a
+        try {
             String url = "jdbc:sqlserver://localhost:1433;databaseName=PRJ321_SU20";
             String username = "sa";
             String password = "123";
