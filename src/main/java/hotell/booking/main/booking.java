@@ -23,8 +23,10 @@ public class booking extends HttpServlet {
         String adult = request.getParameter("adults");
         String child = request.getParameter("childs");
 
+
         int adults, childrent;
         String noti ;
+
         try {
             adults = Integer.parseInt(adult);
             childrent = Integer.parseInt(child);

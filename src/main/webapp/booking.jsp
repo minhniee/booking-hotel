@@ -25,6 +25,7 @@
 <label for="child">Child</label>
 <input type="number" id="child" name="childs" min="0">
 <input type="submit" value="Booking">
+<input type="reset" value="Cancel">
 </form>
 
 <script>
