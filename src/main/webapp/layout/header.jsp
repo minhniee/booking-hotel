@@ -19,7 +19,7 @@
 
         <div class="col-md-3 text-end">
             <button type="button" class="btn btn-outline-primary me-2" onclick="location.href = 'login.jsp'">Login</button>
-            <button type="button" class="btn btn-primary" onclick="location.href = 'login.jsp'" >Sign-up</button>
+            <button type="button" class="btn btn-primary" onclick="location.href = 'booking.jsp'" >Booking Now</button>
         </div>
     </header>
 </div>

@@ -7,7 +7,7 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 @WebServlet(name = "bookingServlet", value = "/booking-servlet")
-public class booking extends HttpServlet {
+public class Booking extends HttpServlet {
 //    private String message;
 
 //    public void init() {
