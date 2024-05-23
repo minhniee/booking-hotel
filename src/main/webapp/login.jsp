@@ -70,31 +70,29 @@
                                     <h4 class="mt-1 mb-5 pb-1">We are FBT</h4>
                                 </div>
 
-                                <form>
-
+<%--                                <form>--%>
+                                    <form action="login" method="post">
                                     <div data-mdb-input-init class="form-outline mt-2">
                                         <label class="form-label" for="form2Example11">Username</label>
-                                        <input type="email" id="form2Example11" name="username" class="form-control"
+                                        <input type="text" id="form2Example11" name="username" class="form-control"
                                                placeholder="Phone number or email address" />
                                     </div>
 
                                     <div data-mdb-input-init class="form-outline mb-2">
                                         <label class="form-label" for="form2Example22">Password</label>
-                                        <input type="password" name="password   " id="form2Example22" class="form-control" />
+                                        <input type="password" name="password" id="form2Example22" class="form-control" />
                                     </div>
-
                                     <div class="text-center pt-1 mb-5 pb-1">
-                                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
-                                            in</button>
+                                        <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Login</button>
                                         <a class="text-muted" href="#!">Forgot password?</a>
                                     </div>
-
+                                    </form>
                                     <div class="d-flex align-items-center justify-content-center pb-4">
                                         <p class="mb-0 me-2">Don't have an account?</p>
                                         <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger">Create new</button>
                                     </div>
 
-                                </form>
+<%--                                </form>--%>
 
                             </div>
                         </div>

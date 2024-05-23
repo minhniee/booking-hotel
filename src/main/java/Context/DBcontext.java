@@ -4,12 +4,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBcontext {
-
+    public Connection connection;
     public static Connection getConnection() {
         Connection c = null;
 
         try {//a
-            String url = "jdbc:sqlserver://localhost:1433;databaseName=booking_hotel_v2";
+            String url = "jdbc:sqlserver://localhost:1433;databaseName=booking_hotel_v3";
             String username = "sa";
             String password = "123";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
