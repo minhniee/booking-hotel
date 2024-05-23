@@ -1,0 +1,14 @@
+
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å…ò 8–éâ˜ú1J$63f48b6f-83f0-488e-af6d-9fafca5f4f38
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿°›ğ8„‘˜ú1J$00074a9c-6973-474b-908a-acbb82bdb420
+k	java:S108%")Either remove or fill this block of code.(”ı¾8 „‘˜ú1J$36f02800-7c3c-4d25-8734-f4256a1aa5c3
+k	java:S1084")Either remove or fill this block of code.(”ı¾8 „‘˜ú1J$f1f1483d-4e4e-4852-a353-26d593351b45
+r
+java:S14819"*Remove this unused "check" local variable.(«Ô×¸üÿÿÿÿ8 „‘˜ú1J$d014e49b-13f7-4067-ae59-adb628534da7
+a
+java:S69058"Don't use the query "SELECT *".(Ú€8´êâ˜ú1J$d6cbe642-aa2b-4f7d-88a6-d5405312dce6
+k	java:S108C")Either remove or fill this block of code.(”ı¾8 „‘˜ú1J$871915c4-93ce-43a0-8d01-287f8e0c7375
+h
+java:S1128"%Remove this unused import 'java.sql'.(´İ…Å8Ê©šú1J$49eca74c-bdf5-4229-b8bc-9a2be948ec0e
+f
+java:S1128"Remove this duplicated import.(ş“ìÎÿÿÿÿÿ8Àêâ˜ú1J$6838f651-333a-43b1-889a-8a91514863b0

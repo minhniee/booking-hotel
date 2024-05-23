@@ -1,0 +1,18 @@
+
+c	java:S116"NRename this field "RID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÃÿÍ
+f	java:S116"QRename this field "Status" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘›Ä»
+d	java:S116"ORename this field "Size" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÊ
+h	java:S116"NRename this field "Img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º²¼ıÿÿÿÿ
+c	java:S116	"NRename this field "BID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆšöÃ
+=
+java:S1068"'Remove this unused "RID" private field.(ÑÃÿÍ
+@
+java:S1068"*Remove this unused "Status" private field.(‘›Ä»
+>
+java:S1068"(Remove this unused "name" private field.(Ë¥¼
+>
+java:S1068"(Remove this unused "Size" private field.(ÿÊ
+B
+java:S1068"'Remove this unused "Img" private field.(º²¼ıÿÿÿÿ
+=
+java:S1068	"'Remove this unused "BID" private field.(ˆšöÃ

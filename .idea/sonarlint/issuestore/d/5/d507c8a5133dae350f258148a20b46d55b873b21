@@ -1,0 +1,11 @@
+
+
+java:S1104"VMake connection a static final constant or non-public and provide accessors if needed.(à¯ôüÿÿÿÿ8ş‰ ˜ú1J$1af0f36d-38c3-4ae4-9600-9dcfed67de0d
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿°›ğJ$e8e4dc62-9f1b-459e-886f-728ee60d7c1c
+n
+java:S4925"-Remove this "Class.forName()", it is useless.(ìè©‡úÿÿÿÿJ$cecf9d50-e830-41f4-b85d-6907898e77c5
+w
+java:S6437"6Revoke and change this password, as it is compromised.(è…®¤ÿÿÿÿÿJ$9820d9c7-d033-41d3-8779-488af28cd8bf
+s
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿJ$cdd1a262-a009-48dd-b23b-cfce11220c2c
+k	java:S106"+Replace this use of System.out by a logger.(““§¡ùÿÿÿÿJ$bf9ef13c-b5af-4fef-b718-0320c14054f8

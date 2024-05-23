@@ -1,0 +1,17 @@
+
+’
+java:S1104"OMake con a static final constant or non-public and provide accessors if needed.(’Ôıÿ8ÏÅ›˜ú1J$af87ec38-e1de-453f-b5da-bc3356463750
+
+java:S1104	"NMake ps a static final constant or non-public and provide accessors if needed.(Íòét8ÏÅ›˜ú1J$b0ad0e29-e5c3-41bc-892c-41b6fae82f2b
+–
+java:S1104
+"NMake rs a static final constant or non-public and provide accessors if needed.(û˜Î¬şÿÿÿÿ8ÏÅ›˜ú1J$40380316-b5a7-4260-a29c-1b676abb3bae
+“
+java:S1104"PMake xSql a static final constant or non-public and provide accessors if needed.(“ø‡á8ÏÅ›˜ú1J$3b49b975-4d71-419d-89e2-a9c169c368c4
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿°›ğ8£òâú1J$317f716f-f63f-4923-a539-0923af0bf22b
+’
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(­§óùÿÿÿÿ8×Å›˜ú1J$78a89484-2bf8-46a1-baf3-1eea37f74d41
+u
+java:S1113"-Do not override the Object.finalize() method.(­§óùÿÿÿÿ8×Å›˜ú1J$bfbdaa93-bb44-48e4-8147-6f364a3f95b8
+n
+java:S1174"&Make this finalize() method protected.(­§óùÿÿÿÿ8×Å›˜ú1J$c41bb45c-f348-46c9-ba91-eefddfe5ff54

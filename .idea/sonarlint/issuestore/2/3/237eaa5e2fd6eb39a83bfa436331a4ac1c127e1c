@@ -1,0 +1,14 @@
+
+P
+java:S1161":Add the "@Override" annotation above this method signature( Üó
+P
+java:S1161":Add the "@Override" annotation above this method signature(°¥¸û
+k
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ
+>
+java:S1185"(Remove this method to simply inherit it.(üª¼í
+{
+java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(Í†»Öúÿÿÿÿ
+P
+java:S1161 ":Add the "@Override" annotation above this method signature(‚“¶î
+@	java:S106!"+Replace this use of System.out by a logger.(¹À³‚
