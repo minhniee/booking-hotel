@@ -2,41 +2,40 @@ package Context;
 import model.Account;
 
 import java.sql.*;
-import model.Account;
+
 public class AccountDAO extends MyDAO{
     public Account checkLogin(String user_name, String password) {
-        String sql = "SELECT [id]\n"
-                + "      ,[user_name]\n"
-                + "      ,[password]\n"
-                + "      ,[full_name]\n"
-                + "      ,[email]\n"
-                + "      ,[role]\n"
-                + "      ,[gender]\n"
-                + "      ,[phone]\n"
-                + "      ,[dob]\n"
-                + "      ,[address]\n"
-                + "  FROM [dbo].[account] WHERE user_name = ? AND [password] = ?";
+        String sql = "SELECT [id], [user_name], [password], [full_name], [email], [role], [gender], [phone], [dob], [address] FROM [dbo].[account] WHERE user_name = ? AND [password] = ?";
+        Account a = null;
         try {
             ps = con.prepareStatement(sql);
             ps.setString(1, user_name);
             ps.setString(2, password);
             rs = ps.executeQuery();
-            while (rs.next()) {
-                Account a = new Account();
+            if (rs.next()) {
+                a = new Account();
                 a.setId(rs.getInt("id"));
                 a.setUsername(rs.getString("user_name"));
                 a.setFullname(rs.getString("full_name"));
                 a.setEmail(rs.getString("email"));
                 a.setRole(rs.getString("role"));
-                a.setGender(1);
+                a.setGender(rs.getBoolean("gender") ? 1 : 0); // Assuming gender is stored as BIT (0/1) in the database
                 a.setPhone(rs.getString("phone"));
                 a.setAddress(rs.getString("address"));
                 a.setDob(rs.getDate("dob"));
-                return a;
             }
-        } catch (Exception e) {
+        } catch (SQLException e) {
+            e.printStackTrace(); // Log the exception
+        } finally {
+            // Ensure resources are closed properly
+            try {
+                if (rs != null) rs.close();
+                if (ps != null) ps.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
-        return null;
+        return a;
     }
     public void register(String username, String password, String fullname, String phone, int role) {
         String sql = "INSERT INTO [dbo].[Account] ([Username], [Password], [Fullname], [Phone], [Role])\n"

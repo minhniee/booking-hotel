@@ -3,9 +3,9 @@ package Controller.Authentication;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
-
 import java.io.IOException;
 import java.io.PrintWriter;
+
 import Context.AccountDAO;
 import model.Account;
 
@@ -38,7 +38,7 @@ public class login extends HttpServlet {
             throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        HttpSession ss= request.getSession();
+        HttpSession session = request.getSession();
         AccountDAO aDAO = new AccountDAO();
         Account account = aDAO.checkLogin(username, password);
         if (account == null) {
@@ -46,15 +46,11 @@ public class login extends HttpServlet {
             request.setAttribute("msg", msg);
             request.getRequestDispatcher("login.jsp").forward(request, response);
         } else {
-            ss.setAttribute("account", account);
-            if (account.getRole().equals("admin")) {
-//                response.sendRedirect("admin/page");
-                request.getRequestDispatcher("admin/page").forward(request, response);
-
+            session.setAttribute("account", account);
+            if ("admin".equals(account.getRole())) {
+                response.sendRedirect("admin/page");
             } else {
-//                response.sendRedirect("booking.jsp");
-                request.getRequestDispatcher("booking.jsp").forward(request, response);
-
+                response.sendRedirect("booking.jsp");
             }
         }
     }
@@ -64,3 +60,4 @@ public class login extends HttpServlet {
         return "Short description";
     }
 }
+

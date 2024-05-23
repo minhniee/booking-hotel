@@ -3,25 +3,34 @@ package Context;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class MyDAO extends DBcontext {
-    public Connection con = null;
-    public PreparedStatement ps = null;
-    public ResultSet rs = null;
-    public String xSql = null;
+    protected Connection con;
+    protected PreparedStatement ps;
+    protected ResultSet rs;
+    protected String xSql;
 
     public MyDAO() {
-        con = connection;//d
+        con = getConnection(); // Lấy kết nối từ DBcontext
     }
 
-    public void finalize() {
+    @Override
+    protected void finalize() throws Throwable {
         try {
-            if (con != null) {
+            if (rs != null && !rs.isClosed()) {
+                rs.close();
+            }
+            if (ps != null && !ps.isClosed()) {
+                ps.close();
+            }
+            if (con != null && !con.isClosed()) {
                 con.close();
             }
-        } catch (Exception e) {
+        } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            super.finalize();
         }
     }
-
 }

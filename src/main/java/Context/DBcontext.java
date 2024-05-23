@@ -2,28 +2,24 @@ package Context;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class DBcontext {
-    public Connection connection;
-    public static Connection getConnection() {
-        Connection c = null;
+    protected Connection connection;
 
-        try {//a
+    public DBcontext() {
+        try {
             String url = "jdbc:sqlserver://localhost:1433;databaseName=booking_hotel_v3";
             String username = "sa";
             String password = "123";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            // Tạo kết nối
-            c = DriverManager.getConnection(url, username, password);
-
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
+            connection = DriverManager.getConnection(url, username, password);
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
-
-        return c;
     }
-    public static void main(String[] args) {
-        System.out.println(getConnection());
+
+    public Connection getConnection() {
+        return connection;
     }
 }

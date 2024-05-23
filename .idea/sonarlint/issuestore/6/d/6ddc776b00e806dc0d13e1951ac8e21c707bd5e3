@@ -1,17 +1,15 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷è¶8Ü–é—ú1J$b1961d6d-f44b-429b-a3ef-f97650cdf9f5
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É®„¤ùÿÿÿÿ8ã–é—ú1J$e0ab829d-08e9-416d-93a1-a6408731533a
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷è¶8îï¹©ú1J$b149dcf2-81df-4940-942b-9aadd56b79c3
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É®„¤ùÿÿÿÿ8îï¹©ú1J$1dbf47f0-2dc3-4ae1-b614-d06536ef59ca
 »
-java:S1130"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(ıù±8ì–é—ú1J$76e5edae-db1d-44dd-92c0-495839e5c207
+java:S1130"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(ıù±8§ñº©ú1J$34b6e89f-01db-40cd-a9e6-b99d4acd22a0
 ¤
-java:S1989!"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(°°‘û8ü–é—ú1J$e4b8bc74-5ced-4dd8-82e2-9b2b620b5455
+java:S1989!"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(°°‘û8úï¹©ú1J$5357be00-5812-4559-8633-f5eb19bf8847
 ¤
-java:S1989/"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(°°‘û8€—é—ú1J$2bbdf517-6621-4f47-a3e5-5b2331374b1b
-€
-java:S24411"=Make "Account" serializable or don't store it in the session.(õÓå¢8–è£˜ú1J$214cfd04-2f83-4298-b5c8-d3bf927324ab
-©
-java:S19894"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ÍÉü¾üÿÿÿÿ8Œ¥›ú1J$1d8eb38c-6ec2-4f07-872c-ed8a96d2cdc3
-~	java:S1253"<This block of commented-out lines of code should be removed.(úñ¿8Œ¥›ú1J$bf3575b8-d198-45eb-884a-e779c691b691
-©
-java:S19898"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Ñ‘İûÿÿÿÿ8Œ¥›ú1J$19113e38-c6ae-4505-945d-31cb844cd631
-~	java:S1257"<This block of commented-out lines of code should be removed.(‰Ş…â8Œ¥›ú1J$ec5841bf-3fb3-478b-884e-2159c3bd165d
+java:S1989/"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(°°‘û8‰ğ¹©ú1J$c1f980dc-ce7f-4ae7-9edb-7a5afa3f92a6
+…
+java:S24411"=Make "Account" serializable or don't store it in the session.(‚ú„¤øÿÿÿÿ8‰ğ¹©ú1J$24c269eb-2483-4048-a8b2-1782b18abf1f
+•
+java:S19893"SHandle the following exception that could be thrown by "sendRedirect": IOException.(„úŞ 8‰ğ¹©ú1J$75f1896a-4be6-4aea-8a24-e6adde356068
+–
+java:S19895"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Ï”ãƒ8‰ğ¹©ú1J$44a68868-06dc-4d69-8c6f-f50ac59ab632
